@@ -1,0 +1,19 @@
+I have a pdf file with roughly 300 pages, most of which contain a a new crew ID number, name, table, etc.
+See first page of attached PDF. Other pages, are continuations of the previous page,
+and don't contain a crew ID number- see second page of attached PDF.
+My task is to parse the master pdf, and create smaller, sub PDF's saving each by the crew ID # of the page.
+Pages without a crew ID that are continuations of the previous page, those resembling the second page of
+attached PDF should be added and saved to the PDF before it with a crew ID number.
+Each crew ID number is 6 digits, beginning with a 0. This can be identified with regex.
+
+I am trying to use PyPDF2 to parse the master PDF, but am having trouble doing so with regex,
+and with creating sub-PDF's containing more than one page.
+
+Any help here?? Thanks python community!
+
+
+
+Task:
+Each crew ID number is 6 digits, beginning with a 0. This can be identified with regex.
+Done
+
